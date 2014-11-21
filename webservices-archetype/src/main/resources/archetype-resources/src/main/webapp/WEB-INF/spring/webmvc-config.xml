@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:configuration="http://www.ontotext.com/schema/dsp/configuration"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+	http://www.ontotext.com/schema/dsp/configuration http://www.ontotext.com/schema/dsp/configuration/configuration.xsd">
+
+	<configuration:init location="classpath*:/configurations/swagger-version.properties" />
+
+	<!-- Allows for mapping the DispatcherServlet to "/" by forwarding static resource requests to the container's default Servlet -->
+	<mvc:default-servlet-handler />
+
+	<context:component-scan base-package="com.ontotext" />
+	<context:component-scan base-package="com.ontotext.swagger.config" />
+
+	<mvc:annotation-driven />
+</beans>
+
