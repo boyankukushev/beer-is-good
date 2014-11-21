@@ -1,5 +1,5 @@
-package com.ontotext.swagger;
- 
+package $com.ontotext.archetypes;
+
 import javax.inject.Inject;
 
 import org.springframework.beans.factory.annotation.Value;

@@ -3,7 +3,7 @@
 
   <sources>
     <source>src/main/java/App.java</source>
-    <source>src/main/java/com/ontotext/swagger/SwaggerConfiguration.java</source>
+    <source>src/main/java/SwaggerConfiguration.java</source>
   </sources>
 
   <testSources>
@@ -11,9 +11,10 @@
   </testSources>
 
   <resources>
-    <source>src/main/webapp/WEB-INF/web.xml</source>
-    <source>src/main/webapp/WEB-INF/spring/webmvc-config.xml</source>
-    <source>src/main/resources/configurations/*.properties</source>
+    <resource>src/main/webapp/WEB-INF/web.xml</resource>
+    <resource>src/main/webapp/WEB-INF/spring/webmvc-config.xml</resource>
+    <resource>src/main/resources/configurations/swagger-version.properties</resource>
+    <resource>src/main/resources/configurations/webservice.properties</resource>
   </resources>
 
 </archetype>
