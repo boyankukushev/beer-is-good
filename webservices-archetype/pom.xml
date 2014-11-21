@@ -5,5 +5,4 @@
   <artifactId>webservices-archetype</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Archetype - webservices-archetype</name>
-  <url>http://maven.apache.org</url>
 </project>
