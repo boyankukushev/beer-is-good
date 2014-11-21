@@ -1,4 +1,4 @@
-package $com.ontotext.archetypes;
+package ${package};
 
 import javax.inject.Inject;
 

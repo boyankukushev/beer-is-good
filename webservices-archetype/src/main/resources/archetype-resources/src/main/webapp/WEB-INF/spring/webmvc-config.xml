@@ -13,8 +13,7 @@
 	<!-- Allows for mapping the DispatcherServlet to "/" by forwarding static resource requests to the container's default Servlet -->
 	<mvc:default-servlet-handler />
 
-	<context:component-scan base-package="com.ontotext" />
-	<context:component-scan base-package="com.ontotext.swagger.config" />
+	<context:component-scan base-package="${package}" />
 
 	<mvc:annotation-driven />
 </beans>

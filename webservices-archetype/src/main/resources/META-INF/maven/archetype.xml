@@ -11,10 +11,13 @@
   </testSources>
 
   <resources>
+    <resource>src/main/webapp/apidocs/index.html</resource>
     <resource>src/main/webapp/WEB-INF/web.xml</resource>
     <resource>src/main/webapp/WEB-INF/spring/webmvc-config.xml</resource>
+    <resource>src/main/resources/logback.xml</resource>
     <resource>src/main/resources/configurations/swagger-version.properties</resource>
     <resource>src/main/resources/configurations/webservice.properties</resource>
+    <resource>src/main/resources/META-INF/applicationContext.xml</resource>
   </resources>
 
 </archetype>
