@@ -5,8 +5,8 @@ Archetype for generating spring-aware web applications with swagger and healtche
 ======
 
 TODO list
-* who is setting the ${project.version}
-* remove redundant dependencies (sesame, etc)
-* java 8 is needed (healthcheck-commons)
-* loggers are messy.
+- [x] who is setting the ${project.version} -- got fixed when the proper parent was added
+- [ ] remove redundant dependencies (sesame, etc) -- actually decided not to remove anything ... yet
+- [ ] java 8 is needed (healthcheck-commons)
+- [x] loggers are messy -- fixed
 
