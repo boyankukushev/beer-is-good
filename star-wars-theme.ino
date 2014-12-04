@@ -109,8 +109,8 @@
 #define S Q/4 // sixteenth 1/16
 #define W 4*Q // whole 4/4
 
-int tones[] = {LA3, LA3, LA3, F3, C4, LA3, F3, C4, LA3, E4, E4, E4, F4, C4, Ab3, F3, C4, LA3, LA4, LA3, LA3, LA4, Ab4, G4, Gb4, E4, F4, 0, Bb3, Eb4, D4, Db4, C4, B3, C4, 0, F3, Ab3, F3, LA3, C4, LA3, C4, E4, LA4, LA3, LA3, LA4, Ab4, G4, Gb4, E4, F4, 0, Bb3, Eb4, D4, Db4, C4, B3, C4, 0, F3, Ab3, F3, C4, LA3, F3, C4, LA3, 0}
-int delays[] = {Q, Q, Q, E+S, S, Q, E+S, S, H, Q, Q, Q, E+S, S, Q, E+S, S, H, Q, E+S, S, Q, E+S, S, S, S, E, E, E, Q, E+S, S, S, S, E, E, E, Q, E+S, S, Q, E+S, S, H, Q, E+S, S, Q, E+S, S, S, S, E, E, E, Q, E+S, S, S, S, E, E, E, Q, E+S, S, Q, E+S, S, H, H}
+int tones[] = {LA3, LA3, LA3, F3, C4, LA3, F3, C4, LA3, E4, E4, E4, F4, C4, Ab3, F3, C4, LA3, LA4, LA3, LA3, LA4, Ab4, G4, Gb4, E4, F4, 0, Bb3, Eb4, D4, Db4, C4, B3, C4, 0, F3, Ab3, F3, LA3, C4, LA3, C4, E4, LA4, LA3, LA3, LA4, Ab4, G4, Gb4, E4, F4, 0, Bb3, Eb4, D4, Db4, C4, B3, C4, 0, F3, Ab3, F3, C4, LA3, F3, C4, LA3, 0};
+int delays[] = {Q, Q, Q, E+S, S, Q, E+S, S, H, Q, Q, Q, E+S, S, Q, E+S, S, H, Q, E+S, S, Q, E+S, S, S, S, E, E, E, Q, E+S, S, S, S, E, E, E, Q, E+S, S, Q, E+S, S, H, Q, E+S, S, Q, E+S, S, S, S, E, E, E, Q, E+S, S, S, S, E, E, E, Q, E+S, S, Q, E+S, S, H, H};
 
 int pin8 = 8;
 int pin9 = 9;
