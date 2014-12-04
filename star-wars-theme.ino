@@ -119,13 +119,16 @@ void setup() {
 	pinMode(pin8, OUTPUT);   
 	pinMode(pin9, OUTPUT);       
 	digitalWrite(pin9,LOW);
-
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
 	for (int i = 0; i < 71; i++) {
-		digitalWrite(pin9, HIGH);
+		if (tones[i] > 0) {
+			digitalWrite(pin9, HIGH);
+		} else {
+			digitalWrite(pin9, LOW);
+		}
 		tone(pin8, tones[i], delays[i]);
 		delay(1 + delays[i]);
 		digitalWrite(pin9, LOW);
